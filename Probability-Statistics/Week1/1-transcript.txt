@@ -1,0 +1,85 @@
+Welcome back. This is the
+third and final course of this specialization
+where you learn about probability
+and statistics. I've found that when I have a framework of thinking about
+probability and statistics, it helps me to design learning algorithms and
+make them work better. It helps me to better interpret the outputs of learning
+algorithms and helps me figure out why we do
+certain things in learning algorithms
+and how to adapt it if it's not quite working. I'm thrilled that once again, we have Luis as an
+instructor for this course. Thank you. Yes, I'm very
+excited about this course. I think intuition of probability is something
+very important in a data scientist's
+toolkit because a lot of these algorithms can be phrased
+as a probability, right? For example, a spam
+detection algorithm outputs the probability
+that the email is spam. Yeah, and then in fact, having that framework in mind often lets you do a better job taking the output of a spam classifier or whatever
+learning algorithm using, and then better
+figure out what to do if that output downstream, such as do you put in the spam folder or do
+you show to the user, and even for much more
+complex learning algorithms. This is a key part of
+understanding what to do with the outputs of
+that learning algorithm. Yes, absolutely, that's spam detection
+example calculates the probability that an email is spam,F given the words or
+other features, and that's exactly one of the most important
+theorems in probability, which is Bayes theorem. Bayes theorem tells
+you how to calculate a probability given
+certain events, and one of my
+favorite examples of Bayes theorem is this
+example where there's an illness and it's rare
+and you want to take a test to see if you have
+it and you test positive, and it turns out that it's
+not that likely that you have the illness because it's an application of Bayes theorem. It results in non-intuitive, a positive test for a
+rare illness leads you to conclude that you probably still do not have
+that rare illness. That's Bayes theorem. Yes. Then one more topic that we cover is maximum
+likelihood estimation, what happens all over machine-learning when you
+want to train models. You want to find the model that most likely gave me your data. You want to maximize
+the probability that the model give you your data and a lot of models can
+be seen this way. In fact, we often
+use squared error. Linear regression square
+error. Why square error? Not the average, the power of four or the absolute
+value of the error. It turns out, comes out of
+maximum likelihood estimation. Exactly. That comes out of
+maximum likelihood estimation because you are picking points out of a
+Gaussian distribution. The Gaussian distribution is
+also something we learned, which is one of the most popular
+distributions out there, and that one has a square. It turns out that when
+you take the logarithm, the square comes down
+and that's the square. I think that's really cool
+because it lets you figure out if the data is Gaussian
+square error is appropriate, but then you think maybe this isn't quite
+the right model. It actually gives
+you better guidance and better intuition for when squared error will work and when you might want to
+consider something else. I find these Math
+probably intuitions very helpful for helping
+me try to figure out, do I need to change my cost
+function of feather with my machine learning in some
+way to make it better. Exactly. Even things like
+regularization can come out of probability because when you start considering the
+probability of the model, not just the data
+given the model, but the actual model, there is another Gaussian
+there for the coefficients and then the squares of the
+regularization term come out too. It is very cool that
+L2 regularization comes from a Gaussian distribution assumption
+on the parameters, but all this will
+make sense when you go through this course. Then one last, very cool and important topic that does also covers
+is hypothesis testing. Yes, hypothesis testing is super important for things do
+you want to check if a drug is helpful by sampling population
+and testing them or if you want to see if a particular
+feature in a web page actually helped you
+increase their viewership. For that you use
+hypothesis testing. I find a lot of people
+because we used terms like confidence
+and confidence interval, there's a popular
+interpretation of these terms that isn't quite mathematically
+precise ones, and through this course, you also learn precisely
+what those terms confidence, confidence interval,
+a p-value means, that when you see maybe a
+scientific conclusion reported in the news or when you're generating your own
+scientific conclusion, you've either be
+very precise and accurate about the use
+of these concepts. Yes, you'll be precise and accurate and also confident
+about your answers. On that note, I'm excited
+to have you jump into this third and final course of math and machine
+learning and data science. Please go learn about
+probability and statistics. Let's go on to the next video.
